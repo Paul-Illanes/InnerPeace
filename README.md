@@ -1,4 +1,4 @@
-<h1 align='center'> Ment-Ally</h1>
+<h1 align='center'> InnerPeace</h1>
 <h3 align="center">View at:</h3>
 <h3 align="center"><a href="">Live Showcase</a></h3>
 <h2>The problem it solves:relaxed: </h2>
