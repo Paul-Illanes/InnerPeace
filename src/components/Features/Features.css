@@ -15,17 +15,18 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
+  flex-wrap:wrap;
 }
 .boxes .section,.section1,.section2,.section3 {
   height: 200px;
   width: 200px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   text-align: center;
   color: #fff;
   font-weight: 900;
-  padding: 130px;
   margin: 20px;
   position: relative;
 }

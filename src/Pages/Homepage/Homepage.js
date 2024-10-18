@@ -6,6 +6,7 @@ import Lottie from "lottie-react";
 import { Link } from "react-router-dom";
 import "./Homepage.css"
 import Chakras from '../../animation/chakra.json';
+import Chatbot from '../../components/Chatbot/Chatbot';
 
 
 const Homepage = () => {
@@ -24,14 +25,15 @@ const Homepage = () => {
           <Lottie animationData={heromedi} style={{ size: 1000 }} />
         </div>
         <div className="text ml-8">
-         <h1>Meditation</h1>
-          has been practiced for thousands of years. Meditation originally was
-          meant to help deepen understanding of the sacred and mystical forces
-          of life. These days, meditation is commonly used for relaxation and 
-         stress relief
+         <h1>Meditacion</h1>
+        <p>Se practica desde hace miles de años. Originalmente, la meditación
+        ayudar a profundizar en la comprensión de las fuerzas sagradas y místicas
+        de la vida. Hoy en día, la meditación se utiliza para relajarse y aliviar el estrés</p>
+        <br/>
          <Link to="/Meditation"><button className="getthereBtn">
-          Get there
+          Ir ahi
         </button></Link>
+        
         </div>
       </div>
    
@@ -43,16 +45,20 @@ const Homepage = () => {
         </div>
         <div className="text ml-5 ">
          <h1>Chakras</h1>
-         are thought to be spinning disks of energy that should stay “open” and aligned for optimal emotional and physical well-being.Yoga is one of the most basic ways to balance each chakra because it creates alignment in the physical body. Balancing and stabilizing your physical body through asana (yoga posture) practice also rebalances your subtle body.
+         Se cree que los chakras son discos giratorios de energía que deben permanecer "abiertos" y alineados para un bienestar emocional y físico óptimo. El yoga es una de las formas más básicas de equilibrar cada chakra porque crea alineación en el cuerpo físico. Equilibrar y estabilizar el cuerpo físico mediante la práctica de asanas (posturas de yoga) también reequilibra el cuerpo sutil.
          <br/>
          <Link to="/Chakras"><button className="getthereBtn">
-          Get there
+          Ir ahi
         </button></Link>
         <br/>
         <br/>
         </div>
         
       </div>
+      <div >
+        <Chatbot />
+      </div>
+    
 
     </div>
    

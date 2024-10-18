@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from "framer-motion";
 import Lottie from "lottie-react";
+import { Link } from 'react-router-dom';
 import bmi from "../../animation/bmi.json";
 import sandclock from "../../animation/sandclock.json";
 import Ui from "../../animation/Ui.json";
@@ -25,7 +26,7 @@ const Features = () => {
   return (
     <div>
     <div className="middle">
-      <h1 className='text-4xl font-sans pb-5 font-semibold' >Features we provide</h1>
+      <h1 className='text-4xl font-sans pb-5 font-semibold' >Servicios que ofrecemos</h1>
       <div className="boxes">
       <motion.div
           variants={btnVarient}
@@ -35,31 +36,31 @@ const Features = () => {
             ChatBot
             <Lottie animationData={ChatBot} style={{ height: 120 }} />
           </h3>
-        </motion.div>
+      </motion.div>
       <motion.div
           variants={btnVarient}
           whileHover="hover"
         className="section3">
           <h3>
-            Meditation Chakras
+            Chakras de meditacion
             <Lottie animationData={chakras} style={{ height: 120 }} />
           </h3>
-        </motion.div>
-        <motion.div
+      </motion.div>
+      <motion.div
           variants={btnVarient}
           whileHover="hover"
         className="section">
           <h3>
-            Meditation timer{" "}
+          Temp de meditacion{" "}
             <Lottie animationData={sandclock} style={{ height: 120 }} />
-          </h3>
-        </motion.div>
-        <motion.div
+          </h3>  
+      </motion.div>
+      <motion.div
           variants={btnVarient}
           whileHover="hover"
-        className="section1">
+        className="section">
           <h3>
-            BMI Calculator{" "}
+            Calculador IMC{" "}
             <Lottie animationData={bmi} style={{ height: 80 }} />
           </h3>
         </motion.div>

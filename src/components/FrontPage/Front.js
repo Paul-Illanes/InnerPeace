@@ -45,16 +45,16 @@ const Front = () => {
     <div className="flex flex-row items-center pt-36 md:flex-col ">
       <div className="main flex mr-8">
         <div className="flex-1 p-52">
-        <h4 className='text-2xl'>Your fitness friend</h4>
+        <h4 className='text-2xl'>Tu amigo fitness</h4>
           <h1 className='text-5xl font-bold '>InnerPeace</h1>
-          <h4 className='text-2xl'>Your one solution for all mental problems....</h4>
+          <h4 className='text-2xl'>Una solución para todos tus problemas mentales....</h4>
          <motion.button 
           variants={btnVarient}
           whileHover="hover"
           initial="hidden"
           animate="visible"
           onClick={isScroll}
-         className="btn " style={{padding:"20px 20px"}}> Explore <ArrowRightAltIcon style={{marginLeft:15}}/></motion.button>
+         className="btn " style={{padding:"20px 20px"}}> Explora <ArrowRightAltIcon style={{marginLeft:15}}/></motion.button>
         </div>
         <div className='flex flex-row '>
         <Lottie animationData={Hero} style={{ size: 900, marginRight:"100px" }} />

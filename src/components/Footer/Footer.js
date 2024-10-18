@@ -6,19 +6,18 @@ const Footer = () => {
       <footer aria-label="Site Footer" className="bg-indigo-200">
   <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
     <div className="flex justify-center">
-      <h1 className='text-4xl font-serif'>InnerPeace</h1>
+      <h1 className='text-4xl font-serif'>PazInterior</h1>
     </div>
 
     <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
-      consequuntur amet culpa cum itaque neque.
+      Armonía y equilibrio para tu mente
     </p>
 
     <nav aria-label="Footer Nav" className="mt-12">
       <ul className="flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12 text-lg">
         <li>
           <a className="text-gray-700 transition hover:text-gray-700/75" href="/">
-           Home
+           Inicio
           </a>
         </li>
 
@@ -30,7 +29,7 @@ const Footer = () => {
 
         <li>
           <a className="text-gray-700 transition hover:text-gray-700/75" href="/Meditation">
-            Meditation
+            Meditacion
           </a>
         </li>
 
@@ -42,7 +41,7 @@ const Footer = () => {
 
         <li>
           <a className="text-gray-700 transition hover:text-gray-700/75" href="/ChatBot">
-            Chat Now
+            Conversemos
           </a>
         </li>
       </ul>
